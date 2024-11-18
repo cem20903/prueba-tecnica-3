@@ -1,0 +1,40 @@
+.notifications-container {
+    position: fixed;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.notification {
+    display: flex;
+    min-width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    border-radius: var(--border-radius-m);
+    font-size: 20px;
+    font-size: bold;
+    animation: fadeInAnimation ease 2s;
+}
+
+.success {
+    background-color: var(--success-color);
+}
+
+.error {
+    background-color: var(--error-color);
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

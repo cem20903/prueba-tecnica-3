@@ -1,0 +1,23 @@
+.post {
+    background-color: var(--primary-white);
+    flex-basis: 20%;
+    padding: 10px 20px;
+    border-radius: var(--border-radius-l);
+    -webkit-box-shadow: -1px -1px 15px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: -1px -1px 15px rgba(0, 0, 0, 0.55);
+    box-shadow: -1px -1px 15px rgba(0, 0, 0, 0.55);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 25px;
+}
+
+.post__button-icon {
+    width: 25px;
+    height: auto;
+}
+
+.post__actions {
+    display: flex;
+    justify-content: space-between;
+}

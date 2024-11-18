@@ -1,0 +1,12 @@
+.sidebar {
+    background-color: var(--primary-grey);
+    border-radius: 5px;
+    padding: 20px;
+    height: auto;
+}
+
+@media (min-width: 1024px) {
+    .sidebar {
+        height: 450px;
+    }
+}

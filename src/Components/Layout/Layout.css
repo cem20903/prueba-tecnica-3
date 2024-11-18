@@ -1,0 +1,13 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 50px;
+    gap: 25px;
+}
+
+@media (min-width: 1024px) {
+    .content {
+        flex-direction: row;
+        margin: 50px;
+    }
+}

@@ -1,0 +1,27 @@
+.postList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+    background-color: #fefdfd;
+    animation: fadeInAnimation ease 1s;
+}
+
+@media (min-width: 1024px) {
+    .postList {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
